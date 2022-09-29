@@ -207,7 +207,7 @@
             "type": "PRESSURE",
             "band": 12,
             "multiplier": 1.1,
-            "offset": 10
+            "offset": 1
           }
         }
       }
@@ -312,7 +312,7 @@
           "Habitat loss fish farm": {
             "type": "PRESSURE",
             "band": 12,
-            "offset": 3000
+            "offset": 101
           }
         }
       }
