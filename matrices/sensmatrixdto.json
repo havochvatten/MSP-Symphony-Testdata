@@ -1,1 +1,42 @@
-{"id":123,"name":"%s","sensMatrix":{"rows":[{"presMetaId":576,"name":"Explosion peak","nameLocal":"Explosionermaximaltryck(peakmaximumpressure)","columns":[{"ecoMetaId":626,"name":"Porpoise Belt Sea","nameLocal":"TumlareBälthavet","value":0.1},{"ecoMetaId":627,"name":"Porpoise North Sea","nameLocal":"TumlareNordsjön","value":0.2}]},{"presMetaId":577,"name":"Explosion Sound Exposure Level (SEL)","nameLocal":"Explosionerljudnivå(SoundExposureLevel)","columns":[{"ecoMetaId":626,"name":"Porpoise Belt Sea","nameLocal":"TumlareBälthavet","value":0.3},{"ecoMetaId":627,"name":"Porpoise North Sea","nameLocal":"TumlareNordsjön","value":0.4}]}]}}
+{
+    "id": 123,
+    "name": "%s",
+    "sensMatrix": {
+        "rows": [{
+                "presMetaId": 79,
+                "name": "Explosioner maximaltryck (peak maximum pressure)",
+                "columns": [
+					{
+                        "sensId": 11,
+                        "ecoMetaId": 32,
+                        "name": "Tumlare Bälthavet",
+                        "value": 0.1
+                    },
+                    {
+                        "sensId": 12,
+                        "ecoMetaId": 24,
+                        "name": "Tumlare Nordsjön",
+                        "value": 0.2
+                    }
+                ]
+            }, {
+                "presMetaId": 66,
+                "name": "Explosioner ljudnivå (Sound Exposure Level)",
+                "columns": [
+					{
+                        "sensId": 21,
+                        "ecoMetaId": 32,
+                        "name": "Tumlare Bälthavet",
+                        "value": 0.3
+                    },
+                    {
+                        "sensId": 22,
+                        "ecoMetaId": 24,
+                        "name": "Tumlare Nordsjön",
+                        "value": 0.4
+                    }
+                ]
+            }
+        ]
+    }
+}

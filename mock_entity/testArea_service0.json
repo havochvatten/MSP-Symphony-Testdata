@@ -1,12 +1,14 @@
 {
 "changes":
     {
-    "Habitat loss fish farm":
+    "PRESSURE":
         {
-        "band": 12,
-        "multiplier": 1.1,
-        "type": "PRESSURE"
-        }
+			"12": {
+				"band": 12,
+				"multiplier": 1.1,
+				"type": "PRESSURE"
+			}
+		}
     },
 "feature":
     {
